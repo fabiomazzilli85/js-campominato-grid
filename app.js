@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("box2");
+    
+    for (let i = 1; i <= 100; i++) {
+        const div = document.createElement("div");
+        div.className = "item box padding-box";
+        div.textContent = "Elemento " + i;
+        container.appendChild(div);
+    }
+});
+
+
 // Richiamo i due elementi della pagina con id `button` e `hide`
 const bottone = document.getElementById("button");
 const hideElement = document.getElementById("hide");
