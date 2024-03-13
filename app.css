@@ -20,6 +20,12 @@
     display: none;
 }
 
+#box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .item {
     background-color: aqua;
     color: black;
