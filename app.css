@@ -25,3 +25,8 @@
     border-radius: 25px;
     border: none;
 }
+
+.clicked {
+    background-color: #FFD23F;
+    color: black;
+}
