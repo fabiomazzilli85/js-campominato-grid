@@ -13,6 +13,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.d-none {
     display: none;
 }
 
@@ -30,4 +33,13 @@
 
 .padding-box {
     padding: 30px;
+}
+
+#button {
+    margin: 30px;
+    background-color: burlywood;
+    color: white;
+    border-radius: 25px;
+    padding: 7px 15px;
+    border: none;
 }
