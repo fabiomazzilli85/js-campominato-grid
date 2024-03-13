@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     for (let i = 1; i <= 100; i++) {
         const div = document.createElement("div");
-        div.className = "item box padding-box";
+        div.className = "box";
         div.textContent = i;
         container.appendChild(div);
     }
